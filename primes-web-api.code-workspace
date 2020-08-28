@@ -7,6 +7,7 @@
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
+			
 		{
 			"name": "Launch Chrome",
 			"request": "launch",
@@ -19,8 +20,33 @@
 				"type": "python",
 				"request": "launch",
 				"program": "${file}",
-				"console": "integratedTerminal"
+				"console": "integratedTerminal",
 			}
+		]
+	},
+	"settings": {
+		"python.pythonPath": "C:\\Users\\Negra\\source\\repos\\primes\\env\\Scripts\\python",
+		"auto-close-tag.activationOnLanguage": [
+		
+			"xml",
+			"php",
+			"blade",
+			"ejs",
+			"jinja",
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact",
+			"plaintext",
+			"markdown",
+			"vue",
+			"liquid",
+			"erb",
+			"lang-cfml",
+			"cfml",
+			"HTML (EEx)",
+			"HTML (Eex)",
+			"plist"
 		]
 	}
 }

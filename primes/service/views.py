@@ -22,11 +22,8 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]
 
-
-    class PrimesViewSet(viewsets.ModelViewSet):
-        """
-    API endpoint that allows view primes list
+class PListViewSet(viewsets.ModelViewSet):
     """
-    queryset = Group.objects.all()
-    serializer_class = GroupSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    API to allow view primes list minor than n
+    """
+    
