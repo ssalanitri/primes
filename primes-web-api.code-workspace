@@ -25,7 +25,6 @@
 		]
 	},
 	"settings": {
-		"python.pythonPath": "C:\\Users\\Negra\\source\\repos\\primes\\env\\Scripts\\python",
 		"auto-close-tag.activationOnLanguage": [
 		
 			"xml",
