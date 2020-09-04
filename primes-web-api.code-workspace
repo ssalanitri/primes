@@ -7,13 +7,14 @@
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
+
 			
 		{
 			"name": "Launch Chrome",
 			"request": "launch",
 			"type": "pwa-chrome",
 			"url": "http://localhost:8080",
-			"webRoot": "${workspaceFolder}"
+			"webRoot": "${workspaceFolder}/tutorial"
 		},
 			{
 				"name": "Python: Archivo actual",
@@ -46,6 +47,23 @@
 			"HTML (EEx)",
 			"HTML (Eex)",
 			"plist"
-		]
+		],
+		"python.pythonPath": "c:\\Users\\Sergio\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+		"git.ignoreLimitWarning": true,
+		"sqltools.connections": [
+			{
+				"database": "${workspaceFolder:primes}/db.sqlite3",
+				"driver": "SQLite",
+				"name": "tutorial",
+				"previewLimit": 50
+			},
+			{
+				"database": "${workspaceFolder:primes}/tutorial/db.sqlite3",
+				"driver": "SQLite",
+				"name": "SNIPPETS",
+				"previewLimit": 50
+			}
+		],
+		"sqltools.useNodeRuntime": true
 	}
 }
