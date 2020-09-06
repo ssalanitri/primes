@@ -48,7 +48,7 @@
 			"HTML (Eex)",
 			"plist"
 		],
-		"python.pythonPath": "c:\\Users\\Sergio\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+		"python.pythonPath": "C:\\Users\\Sergio\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
 		"git.ignoreLimitWarning": true,
 		"sqltools.connections": [
 			{
