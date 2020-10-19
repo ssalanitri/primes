@@ -1,0 +1,16 @@
+
+- Primes functions (using sympy)
+    - Get primes minor than n 
+    - Get phi euler function
+    - Get moebius function 
+
+- Numerical verify Riemman Hypotesis RH 
+    - Get primes aprox using x/log n.
+    - Get primes aprox using Li(x).
+    - Get explicit zeta function.
+    
+- Vizualize data.
+    - Vizualize primes distribution aproximation.
+    
+    
+    
